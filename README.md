@@ -1,11 +1,15 @@
-# Anet_tools2.0
-
-ActivityNet Tools
-=================
+# Anet_Kinetics_downloader, adapted from [Anet_tools2.0](https://github.com/waybarrios/Anet_tools2.0)
 
 Requirements
 ------------
  1. youtube-dl to download videos (https://github.com/rg3/youtube-dl/)
+
+
+Fetch DeepMind Kinetics
+-----------------
+To download all the Kinetics videos run script `commands_Kinetics.sh`. 
+Don't forget to edit all the paths.
+
 
 Fetch ActivityNet
 -----------------
