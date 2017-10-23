@@ -6,15 +6,14 @@ import os
 def crosscheck_videos(video_path, ann_file):
     # Get existing videos
     existing_vids = glob.glob("%s/*.mp4" % video_path)
-    # for idx, vid in enumerate(existing_vids):
-    #     basename = os.path.basename(vid).split(".mp4")[0]
-    #     if len(basename) == 13:
-    #         existing_vids[idx] = basename[2:]
-    #     elif len(basename) == 11:
-    #         existing_vids[idx] = basename
-    #     else:
-    #         raise RuntimeError("Unknown filename format: %s", vid)
-    
+    for idx, vid in enumerate(existing_vids):
+        basename = os.path.basename(vid).split(".mp4")[0]
+        if len(basename) == 13:
+            existing_vids[idx] = basename[2:]
+        elif len(basename) == 11:
+            existing_vids[idx] = basename
+        else:
+            raise RuntimeError("Unknown filename format: %s", vid)
     # Read an get video IDs from annotation file
     with open(ann_file, "r") as fobj:
         kinetics = json.load(fobj)
