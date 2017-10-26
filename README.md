@@ -10,6 +10,7 @@ Fetch DeepMind Kinetics
 To download all the Kinetics videos run script `commands_Kinetics.sh`. 
 Don't forget to edit all the paths.
 
+Note @ Oct 25, 2017:  10814 out of 246534 training videos (around 4.4%) are not accessible on Youtube.
 
 Fetch ActivityNet
 -----------------
