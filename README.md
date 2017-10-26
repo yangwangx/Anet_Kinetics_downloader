@@ -4,13 +4,16 @@ Requirements
 ------------
  1. youtube-dl to download videos (https://github.com/rg3/youtube-dl/)
 
-
 Fetch DeepMind Kinetics
 -----------------
-To download all the Kinetics videos run script `commands_Kinetics.sh`. 
-Don't forget to edit all the paths.
+To download all the Kinetics videos   
+  * run script `commands_Kinetics.sh`, don't forget to edit all the paths  
+  * run the generated bash script: `commands_[train/val/test].txt`  
 
-Note @ Oct 25, 2017:  10814 out of 246534 training videos (around 4.4%) are not accessible on Youtube.
+Note @ Oct 25, 2017:  
+  * train: `10814` out of 246534 videos (around `4.4%`) are not accessible on Youtube
+  * val:  `__` out of 19906 videos (around `__%`) are not accessible on Youtube
+  * test:  `__` out of 38685 videos (around `__%`) are not accessible on Youtube
 
 Fetch ActivityNet
 -----------------
