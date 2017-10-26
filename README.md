@@ -11,9 +11,9 @@ To download all the Kinetics videos
   * run the generated bash script: `commands_[train/val/test].txt`  
 
 Note @ Oct 25, 2017:  
-  * train: `10814` out of 246534 videos (around `4.4%`) are not accessible on Youtube
-  * val:  `__` out of 19906 videos (around `__%`) are not accessible on Youtube
-  * test:  `__` out of 38685 videos (around `__%`) are not accessible on Youtube
+  * train: `10792` out of 246534 videos (around `4.4%`) are not accessible on Youtube
+  * val:  `521` out of 19906 videos (around `2.6%`) are not accessible on Youtube
+  * test:  `721` out of 38685 videos (around `1.9%`) are not accessible on Youtube
 
 Fetch ActivityNet
 -----------------
